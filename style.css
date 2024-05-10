@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --main-background: #262626;
+    --text-color: #991b1b;
+    --nav-background:#b91c1c;
+
+}
+
+body {
+    background: var(--main-background);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+    border: 1px red;
+
+
+
+
+}
